@@ -1,8 +1,5 @@
-from typing import List
-
-
 class Solution:
-    def count_bits(self, n: int) -> List[int]:
+    def count_bits(self, n: int) -> list[int]:
         result = [0] * (n + 1)
 
         # Начинаем цикл от 1 до n включительно.
@@ -15,3 +12,6 @@ class Solution:
             result[i] = result[i // 2] + (i % 2)
 
         return result
+
+
+s = Solution()

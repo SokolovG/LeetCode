@@ -15,3 +15,6 @@ class Solution:
             num = new_num  # Обновляем num новой суммой.
 
         return num
+
+
+s = Solution()
